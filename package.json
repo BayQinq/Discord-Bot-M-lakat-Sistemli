@@ -1,0 +1,30 @@
+{
+  "name": "temp-voice",
+  "version": "1.0.0",
+  "description": "A discord bot for temp voice channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FnrDev/temp-voice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FnrDev/temp-voice/issues"
+  },
+  "homepage": "https://github.com/FnrDev/temp-voice#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.31.1",
+    "discord-temp-channels": "^3.0.2",
+    "discord.js": "^13.8.0",
+    "dotenv": "^10.0.0",
+    "humanize-duration": "^3.27.0",
+    "mysql-database": "^1.2.8"
+  }
+}
